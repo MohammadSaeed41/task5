@@ -1,0 +1,81 @@
+*{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.products{
+    background-color: white;
+}
+h1{
+    margin-left: 5px;
+}
+.product{
+    background-color: white;
+    height: 360px;
+    width: 19%;
+    float: left;
+    margin-top:5px;
+    margin-left: 5px;
+    padding: 10px;
+    border: rgb(171, 168, 166) 2px solid;
+}
+
+div img{
+    width: 100%;
+    height: 60%;
+}
+div h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+div p{
+    margin-bottom: 5px;
+    color: rgb(157, 155, 153);
+}
+.price{
+    color: green;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.orginal-price{
+    color: red;
+    text-decoration: line-through;
+    font-size: small;
+    margin-top: 7px;
+}
+.add{
+    float: left;
+    width: 75%;
+    height: 35px;
+    background-color: rgb(66, 163, 223);
+    border: solid rgb(66, 163, 223) 2px;
+    margin-bottom: 5px;
+}
+div .product .add i{
+    float: left;
+    margin-left: 30px;
+    margin-right: 4px;
+    color: white;
+}
+div .product button p{
+    float: left;
+    margin-right: 30px;
+    color: white;
+}
+.fav{
+    float: right;
+    width: 20%;
+    height: 35px;
+    border: solid rgb(66, 163, 223) 2px;
+    background-color: white;
+}
+div .product .fav i{
+    color: rgb(66, 163, 223);
+    font-size: large;
+}
+.clear{
+    clear: both;
+}
